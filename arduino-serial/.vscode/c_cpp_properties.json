@@ -1,0 +1,64 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/numeru55/Documents/PlatformIO/Projects/arduino-serial/include",
+                "/home/numeru55/Documents/PlatformIO/Projects/arduino-serial/src",
+                "/home/numeru55/.platformio/packages/framework-arduino-gd32v/cores/arduino",
+                "/home/numeru55/.platformio/packages/framework-arduino-gd32v/cores/arduino/deprecated-avr-comp",
+                "/home/numeru55/.platformio/packages/framework-arduino-gd32v/cores/arduino/GD32VF103_Firmware_Library/GD32VF103_standard_peripheral",
+                "/home/numeru55/.platformio/packages/framework-arduino-gd32v/cores/arduino/GD32VF103_Firmware_Library/GD32VF103_standard_peripheral/Include",
+                "/home/numeru55/.platformio/packages/framework-arduino-gd32v/cores/arduino/GD32VF103_Firmware_Library/GD32VF103_usbfs_driver",
+                "/home/numeru55/.platformio/packages/framework-arduino-gd32v/cores/arduino/GD32VF103_Firmware_Library/GD32VF103_usbfs_driver/Include",
+                "/home/numeru55/.platformio/packages/framework-arduino-gd32v/cores/arduino/GD32VF103_Firmware_Library/RISCV/drivers",
+                "/home/numeru55/.platformio/packages/framework-arduino-gd32v/cores/arduino/GD32VF103_Firmware_Library/RISCV/env_Eclipse",
+                "/home/numeru55/.platformio/packages/framework-arduino-gd32v/cores/arduino/GD32VF103_Firmware_Library/RISCV/stubs",
+                "/home/numeru55/.platformio/packages/framework-arduino-gd32v/variants/sipeed-longan-nano",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/numeru55/Documents/PlatformIO/Projects/arduino-serial/include",
+                    "/home/numeru55/Documents/PlatformIO/Projects/arduino-serial/src",
+                    "/home/numeru55/.platformio/packages/framework-arduino-gd32v/cores/arduino",
+                    "/home/numeru55/.platformio/packages/framework-arduino-gd32v/cores/arduino/deprecated-avr-comp",
+                    "/home/numeru55/.platformio/packages/framework-arduino-gd32v/cores/arduino/GD32VF103_Firmware_Library/GD32VF103_standard_peripheral",
+                    "/home/numeru55/.platformio/packages/framework-arduino-gd32v/cores/arduino/GD32VF103_Firmware_Library/GD32VF103_standard_peripheral/Include",
+                    "/home/numeru55/.platformio/packages/framework-arduino-gd32v/cores/arduino/GD32VF103_Firmware_Library/GD32VF103_usbfs_driver",
+                    "/home/numeru55/.platformio/packages/framework-arduino-gd32v/cores/arduino/GD32VF103_Firmware_Library/GD32VF103_usbfs_driver/Include",
+                    "/home/numeru55/.platformio/packages/framework-arduino-gd32v/cores/arduino/GD32VF103_Firmware_Library/RISCV/drivers",
+                    "/home/numeru55/.platformio/packages/framework-arduino-gd32v/cores/arduino/GD32VF103_Firmware_Library/RISCV/env_Eclipse",
+                    "/home/numeru55/.platformio/packages/framework-arduino-gd32v/cores/arduino/GD32VF103_Firmware_Library/RISCV/stubs",
+                    "/home/numeru55/.platformio/packages/framework-arduino-gd32v/variants/sipeed-longan-nano",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50203",
+                "USE_STDPERIPH_DRIVER",
+                "HXTAL_VALUE=8000000U",
+                "ARDUINO=10805",
+                "ARDUINO_VARIANT=\"sipeed-longan-nano\"",
+                "ARDUINO_BOARD=\"BOARD_SIPEED_LONGAN_NANO\"",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "compilerPath": "/home/numeru55/.platformio/packages/toolchain-gd32v/bin/riscv-nuclei-elf-gcc",
+            "compilerArgs": [
+                "-march=rv32imac",
+                "-mabi=ilp32",
+                "-mcmodel=medlow",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
